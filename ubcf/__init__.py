@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 ## -- PythonAnywhere MySQL --
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://jakkarin:Jakkarin_23@jakkarin.mysql.pythonanywhere-services.com/jakkarin$ubcandledb'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://jakkarin:Ubcf@2026Candle@jakkarin.mysql.pythonanywhere-services.com/jakkarin$ubcandledb'
 
 ## -- Local SQLite (สำหรับ dev ในเครื่อง) --
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///ubcandle_db.sqlite'
